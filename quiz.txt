@@ -1,0 +1,14 @@
+[
+{
+"question":"audio_files/who is my supervisor.wav",
+"correct":"Dr. Ezika",
+"on_correct":"audio_files/my supervisor is good.wav",
+"on_wrong":"audio_files/you are foolish.wav"
+},
+{
+"question":"audio_files/is my supervisor a lecturer.wav",
+"correct": "yes",
+"on_correct": "audio_files/clap for yourself.wav",
+"on_wrong": "audio_files/what do you even know.wav"
+}
+]
