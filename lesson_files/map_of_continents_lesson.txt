@@ -1,0 +1,26 @@
+[
+	{
+		"caption":"The Lesson covers the history of the 7 continents",
+		"lesson":{
+			"Africa":"Africa is a continent dominated by negroid, black race. The country was majorly colonized by the Europeans",
+			"Asia":"Asia is a continent dominated by mongoloids",
+			"Australia":"Australia is an isolated continent made of a single country. So the continent is both a country and a continent",
+			"Antactica":"Antarctica is a continent made up of frozen ice. Life can barely survive in this continent",
+			"Europe":"Europe is a continent made of powerful countries and empires like Germany, the British empire, Russia and some other countries",
+			"North America":"North America is the continent were you will find the United State of America",
+			"South America":"South America is the continent were you will find the football giant Brazil"
+		}
+	},
+	{
+		"caption":"This Lesson covers the currency used for international transaction in the 7 continents",
+		"lesson":{
+			"Africa":"Africa does not have their own currency for exchange, so they use Euro, US dollars and Pound",
+			"Asia":"Asia uses US dollars, Japanese Yern and Chinese Yern",
+			"Australia":"Australia uses the Australian dollars",
+			"Antactica":"Antarctica is a no man's land hence there is no trade going on there",
+			"Europe":"Europe uses Euro, US dollars and pound sterling",
+			"North America":"North America uses Euro, US dollars and pound sterling",
+			"South America":"South America uses Euro, US dollars and pound sterling"
+		}
+	}
+]

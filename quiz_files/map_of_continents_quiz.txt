@@ -1,0 +1,14 @@
+[
+	{
+		"question":"In which continent is the country with largest population of people?",
+		"correct":"Asia",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"In which continent will you find the country Nigeria?",
+		"correct": "Africa",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	}
+]
