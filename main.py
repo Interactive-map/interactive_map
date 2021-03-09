@@ -14,9 +14,9 @@ data2 = {
 	"South America":{'0'},
 	"North America":{'1'}
 }
-comport = "COM13"
+com_port = "COM13"
 if not system() == "Windows":#checking if the current operating system is not windows so as to change syntax for specifying the serial communication port
-	comport = '/dev/ttyUSB0'
+	com_port = '/dev/ttyUSB0'
 board = Sensor(data2, com_port, 9600)
 lesson = Lesson("lesson_files/map_of_continents_lesson.txt")
 lesson.configure_with_tts_converter()
