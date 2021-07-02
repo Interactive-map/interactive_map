@@ -1,0 +1,38 @@
+[
+	{
+		"caption":"audio_files/Caption_landmass.wav",
+		"lesson":{
+			"Africa":"audio_files/Landmass_Africa.wav",
+			"Asia":"audio_files/Landmass_Asia.wav",
+			"Australia":"audio_files/Landmass_Australia.wav",
+			"Antarctica":"audio_files/Landmass_Antarctica.wav",
+			"Europe":"audio_files/Landmass_Europe.wav",
+			"North America":"audio_files/Landmass_NorthAmerica.wav",
+			"South America":"audio_files/Landmass_SouthAmerica.wav"
+		}
+	},
+	{
+		"caption":"audio_files/Caption_population.wav",
+		"lesson":{
+			"Africa":"audio_files/Population_Africa.wav",
+			"Asia":"audio_files/Population_Asia.wav",
+			"Australia":"audio_files/Population_Australia.wav",
+			"Antarctica":"audio_files/Population_Antarctica.wav",
+			"Europe":"audio_files/Population_Europe.wav",
+			"North America":"audio_files/Population_NorthAmerica.wav",
+			"South America":"audio_files/Population_SouthAmerica.wav"
+		}
+	},
+	{
+		"caption":"audio_files/Caption_facts.wav",
+		"lesson":{
+			"Africa":"audio_files/Facts_Africa.wav",
+			"Asia":"audio_files/Facts_Asia.wav",
+			"Australia":"audio_files/Facts_Australia.wav",
+			"Antarctica":"audio_files/Facts_Antarctica.wav",
+			"Europe":"audio_files/Facts_Europe.wav",
+			"North America":"audio_files/Facts_NorthAmerica.wav",
+			"South America":"audio_files/Facts_SouthAmerica.wav"
+		}
+	}
+]

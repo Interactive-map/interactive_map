@@ -31,7 +31,6 @@ from text_converter import Converter as ct #importing the module that have been 
 import json
 
 
-speech = ct("Touch the states and receive a reply from us")
 
 class Quiz(object):
 	"""
@@ -54,6 +53,8 @@ class Quiz(object):
 			if not q.get("on_correct") == None: #making sure that the on_correct option is not set to None befor setting it to be a sound control object
 				q["on_correct"] = sc(q["on_correct"])
 
+		self.result_sayer = sc("audio_files/QUIZ MODE.wav")# specifying the result sayer
+
 	def configure_with_tts_converter(self):
 		"""
 		This method configures the quiz with a text to speech converter
@@ -64,6 +65,8 @@ class Quiz(object):
 				q["on_wrong"] = ct(q["on_wrong"])
 			if not q.get("on_correct") == None: #making sure that the on_correct option is not set to None befor setting it to be a text to speech converter object
 				q["on_correct"] = ct(q["on_correct"])
+
+		self.result_sayer = ct("QUIZ MODE")# specifying the result sayer
 
 	def get_question(self, id):
 		"""
@@ -128,7 +131,7 @@ class Quiz(object):
 		result = self.board.get_touched()
 		print(self.board.touched_pins)
 		print(result)
-		speech.say(result)
+		self.result_sayer.say(result)# saying the received result
 		return result
 
 	def take_quiz(self):

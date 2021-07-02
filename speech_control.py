@@ -43,6 +43,15 @@ class SoundControl(object):
 		if wait:
 			sd.wait()
 
+	def say(self, result_text):
+		"""
+		This method plays a provided result as soundfile
+		"""
+		self.soundfile = "audio_files/"+result_text+".wav"# specifying that the soundfile to be played is the touched result .wav
+		# example if result_text = Africa, then the file to be played will be Africa.wav
+		self.make_sound()# making the sound from the specified file
+		self.play(True)# playing the sound
+
 	def wait(self):
 		"""
 		waits until the sound is done playing

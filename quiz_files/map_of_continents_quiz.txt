@@ -6,8 +6,44 @@
 		"on_wrong":"Unfortunately you are wrong, take the lessons again"
 	},
 	{
-		"question":"In which continent will you find the country Nigeria?",
+		"question":"In which continent will you find the largest fresh water lake in the world, Lake Superior?",
+		"correct": "North America",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"In which continent will you find the largest desert, Sahara desert?",
 		"correct": "Africa",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"In which continent will you find the highest point on Earth, the summit of Mount Everest?",
+		"correct": "Asia",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"Which continent has the coldest temperature?",
+		"correct": "Antarctica",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"Which continent is the world's smallest continent?",
+		"correct": "Australia",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"In which continent will you find the world's highest waterfalls?",
+		"correct": "South America",
+		"on_correct":"Congratulations! you got it correctly",
+		"on_wrong":"Unfortunately you are wrong, take the lessons again"
+	},
+	{
+		"question":"In which continent will you find the Scandinavian countries?",
+		"correct": "Europe",
 		"on_correct":"Congratulations! you got it correctly",
 		"on_wrong":"Unfortunately you are wrong, take the lessons again"
 	}

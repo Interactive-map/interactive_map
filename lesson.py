@@ -30,7 +30,6 @@ from text_converter import Converter as ct #importing the module that have been 
 import json
 
 
-speech = ct("Touch the states and receive a reply from us")
 class Lesson(object):
 	"""
 	This class creates the instance for the quiz, a file is to be provided which has the record of all the audio files for each of the questions in the quiz
@@ -50,6 +49,8 @@ class Lesson(object):
 			for key in le["lesson"].keys():
 				le["lesson"][key] = sc(le["lesson"][key])#reconfiguring the lesson to a sound control object
 
+		self.result_sayer = sc("audio_files/LESSON MODE.wav")# specifying the result sayer
+
 	def configure_with_tts_converter(self):
 		"""
 		This method configures the lesson with a text to speech converter
@@ -58,6 +59,9 @@ class Lesson(object):
 			le["caption"] = ct(le["caption"]) #reconfiguring the caption to a text to speech converter object
 			for key in le["lesson"].keys():
 				le["lesson"][key] = ct(le["lesson"][key])#reconfiguring the lesson to a text to speech converter object
+
+		self.result_sayer = ct("LESSON MODE")# specifying the result sayer
+
 
 	def get_lesson(self, id):
 		"""
@@ -117,7 +121,7 @@ class Lesson(object):
 		result = self.board.get_touched()
 		print(self.board.touched_pins)
 		print(result)
-		speech.say(result)
+		self.result_sayer.say(result)# saying the received result
 		return result
 
 	def take_lesson(self):

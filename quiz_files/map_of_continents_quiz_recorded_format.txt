@@ -1,0 +1,44 @@
+[
+	{
+		"question":"audio_files/Question1.wav",
+		"correct":"Asia",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	},
+	{
+		"question":"audio_files/Question2.wav",
+		"correct": "North America",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	},
+	{
+		"question":"audio_files/Question3.wav",
+		"correct": "Africa",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	},
+	{
+		"question":"audio_files/Question4.wav",
+		"correct": "Europe",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	},
+	{
+		"question":"audio_files/Question5.wav",
+		"correct": "Antarctica",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	},
+	{
+		"question":"audio_files/Question6.wav",
+		"correct": "Australia",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	},
+	{
+		"question":"audio_files/Question7.wav",
+		"correct": "South America",
+		"on_correct":"audio_files/On_correct.wav",
+		"on_wrong":"audio_files/On_wrong.wav"
+	}
+]
